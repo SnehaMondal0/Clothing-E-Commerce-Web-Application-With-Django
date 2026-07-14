@@ -1,0 +1,16 @@
+asgiref==3.11.0
+Django==5.2.10
+mysql-connector-python==9.6.0
+mysqlclient==2.2.7
+pillow==12.1.0
+sqlparse==0.5.5
+typing_extensions==4.15.0
+tzdata==2025.3
+djangorestframework
+djangorestframework-simplejwt
+django-cors-headers
+stripe
+gunicorn
+whitenoise
+dj-database-url
+psycopg2-binary

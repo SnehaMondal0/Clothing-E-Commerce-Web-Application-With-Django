@@ -1,0 +1,628 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$8oUe4HbBzGj9DQRXJy8jlQ$PwHrA5MF3H4RYnZAcxu43+YWv6tDkjF+wbF9VHC7icI=",
+        "last_login": "2026-02-04T07:12:42.465Z",
+        "is_superuser": true,
+        "username": "revanth",
+        "first_name": "",
+        "last_name": "",
+        "email": "revanthkunala@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-02-02T07:01:26.536Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$VrGAygXd6jT0QbOYJ8i7LM$v9LwXCBJqj/oCpXLrIYKof8dwiWd5eJLGukuq4GCN9c=",
+        "last_login": "2026-02-06T05:09:43.746Z",
+        "is_superuser": true,
+        "username": "revanth19",
+        "first_name": "",
+        "last_name": "",
+        "email": "revanthkunala@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-02-04T07:14:42.545Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$1kdVWbk06KsGGuwVge74IX$Y7lsHqNaQhy7AxdqEu+aiJViBcXKXdzfadKcp/wy7QU=",
+        "last_login": "2026-02-04T08:18:48.143Z",
+        "is_superuser": false,
+        "username": "Dheeraj",
+        "first_name": "",
+        "last_name": "",
+        "email": "dheerajnalluri2@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-02-04T08:18:47.146Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$PDsgbvwoUERBdiPMtSiZuA$Ceh4aiMMBEMzMCFGILes7ANgtJTqdyGK3qXZqCHvleI=",
+        "last_login": "2026-02-05T05:08:06.897Z",
+        "is_superuser": false,
+        "username": "revanthkunala",
+        "first_name": "",
+        "last_name": "",
+        "email": "revanthlpu19@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-02-04T08:58:01.098Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$cUBGXZjzCiSRttKPv0xkZA$F4TyZ8G4JuQvpYOq3mTiw2Ej6QtMy1mD6l/N/GBlSu0=",
+        "last_login": "2026-02-05T05:11:03.483Z",
+        "is_superuser": false,
+        "username": "subbareddy",
+        "first_name": "",
+        "last_name": "",
+        "email": "kareesubbareddy@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-02-05T05:11:03.113Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$DFsEOX5mwBXQ6Tdbvfc4uh$/EXNOqoz2LeuAIiFPE/0F5nFMon+YI2xPuUdLt4bPwk=",
+        "last_login": "2026-02-05T05:13:13.905Z",
+        "is_superuser": false,
+        "username": "hitesh",
+        "first_name": "",
+        "last_name": "",
+        "email": "karumurihitesh@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2026-02-05T05:13:13.514Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "lx9vm11pe93do5rrz5bh2cv5usy6v0g2",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCg7QAu3fcMZKYzStVAUtqV8e7apAvd_vfef6mE25rT1mRJM6uzcur0uxFODyk74DuWW9VTLesyk94VfdCmx8ryvBzu30HGlr-1lWAsyXUQiZaN9Lbz7HuOzgIZb2CCIAElMoXgiD0gCRmI0g3OgVfvD-jXN94:1voE6B:RN0-JE1Gk79xJBfDs7Vs15Vh7Fa1XldeDoldKeOOKoM",
+        "expire_date": "2026-02-20T05:09:43.754Z"
+    }
+},
+{
+    "model": "usersApp.category",
+    "pk": 1,
+    "fields": {
+        "section": "men",
+        "name": "Top Wear",
+        "slug": "men-topwear",
+        "image": "categories/aeee836d2010827f3e60ee5df6ce8320.jpg"
+    }
+},
+{
+    "model": "usersApp.category",
+    "pk": 2,
+    "fields": {
+        "section": "women",
+        "name": "Saree",
+        "slug": "Women-topwear",
+        "image": "categories/3f9201d4680c696fe3e5bafb35289c5e.jpg"
+    }
+},
+{
+    "model": "usersApp.category",
+    "pk": 3,
+    "fields": {
+        "section": "women",
+        "name": "Dress",
+        "slug": "Full-Dresses",
+        "image": "categories/37d33aee4ace6a768b64900da11dc64b.jpg"
+    }
+},
+{
+    "model": "usersApp.category",
+    "pk": 4,
+    "fields": {
+        "section": "men",
+        "name": "Bottomwear",
+        "slug": "men-bottomwear",
+        "image": "categories/Men_Slim_Fit_Denim_Jeans.jpg"
+    }
+},
+{
+    "model": "usersApp.category",
+    "pk": 5,
+    "fields": {
+        "section": "women",
+        "name": "Jeans",
+        "slug": "Women-bottomwear",
+        "image": "categories/Women_High-Rise_Straight_Fit_Jeans.jpg"
+    }
+},
+{
+    "model": "usersApp.category",
+    "pk": 6,
+    "fields": {
+        "section": "kids",
+        "name": "Kids Clothing",
+        "slug": "kids-clothing",
+        "image": "categories/Kids_Printed_Cotton_T-Shirt.jpg"
+    }
+},
+{
+    "model": "usersApp.category",
+    "pk": 7,
+    "fields": {
+        "section": "accessories",
+        "name": "Accessories",
+        "slug": "Men-Accessories",
+        "image": "categories/Leather_Finish_Mens_Wallet.jpg"
+    }
+},
+{
+    "model": "usersApp.product",
+    "pk": 1,
+    "fields": {
+        "name": "Urban Denim Jacket",
+        "category": 1,
+        "price": "2599.00",
+        "discount_price": "1999.00",
+        "description": "A classic blue denim jacket, perfect for layering. Features durable stitching and a comfortable fit.",
+        "image": "products/aeee836d2010827f3e60ee5df6ce8320.jpg",
+        "stock": 100,
+        "created_at": "2026-02-05T10:03:35.502Z",
+        "sizes": [],
+        "colors": []
+    }
+},
+{
+    "model": "usersApp.product",
+    "pk": 2,
+    "fields": {
+        "name": "Classic Oxford Shirt",
+        "category": 1,
+        "price": "1499.00",
+        "discount_price": "1199.00",
+        "description": "Premium cotton crisp white shirt. Ideal for formal meetings or casual evenings.",
+        "image": "products/390164112e8824884a4594f4f8221804.jpg",
+        "stock": 10,
+        "created_at": "2026-02-06T03:47:47.752Z",
+        "sizes": [],
+        "colors": []
+    }
+},
+{
+    "model": "usersApp.product",
+    "pk": 3,
+    "fields": {
+        "name": "Royal Silk Saree",
+        "category": 2,
+        "price": "4199.00",
+        "discount_price": "3999.00",
+        "description": "Elegant silk saree with intricate gold borders. Perfect for weddings and festive occasions.",
+        "image": "products/3f9201d4680c696fe3e5bafb35289c5e.jpg",
+        "stock": 10,
+        "created_at": "2026-02-06T03:54:34.683Z",
+        "sizes": [],
+        "colors": []
+    }
+},
+{
+    "model": "usersApp.product",
+    "pk": 4,
+    "fields": {
+        "name": "Floral Summer Dress",
+        "category": 3,
+        "price": "1899.00",
+        "discount_price": "1599.00",
+        "description": "Light and breezy cotton dress with a vibrant floral print. Perfect for hot summer days.",
+        "image": "products/37d33aee4ace6a768b64900da11dc64b.jpg",
+        "stock": 10,
+        "created_at": "2026-02-06T03:58:28.527Z",
+        "sizes": [],
+        "colors": []
+    }
+},
+{
+    "model": "usersApp.product",
+    "pk": 5,
+    "fields": {
+        "name": "Men Solid Cotton Casual Shirt",
+        "category": 1,
+        "price": "1299.00",
+        "discount_price": "999.00",
+        "description": "Breathable 100% cotton shirt designed for all-day comfort. Features a modern slim fit with a soft finish, suitable for office wear or casual outings.",
+        "image": "products/bcb6afccaf55f4c0d275270dd03f7e94.jpg",
+        "stock": 10,
+        "created_at": "2026-02-06T05:15:18.834Z",
+        "sizes": [],
+        "colors": []
+    }
+},
+{
+    "model": "usersApp.product",
+    "pk": 6,
+    "fields": {
+        "name": "Men Slim Fit Denim Jeans",
+        "category": 4,
+        "price": "1999.00",
+        "discount_price": "1699.00",
+        "description": "Durable stretch denim jeans with a clean silhouette. Designed to move with you while maintaining shape throughout the day.",
+        "image": "products/Men_Slim_Fit_Denim_Jeans.jpg",
+        "stock": 10,
+        "created_at": "2026-02-06T05:18:20.980Z",
+        "sizes": [],
+        "colors": []
+    }
+},
+{
+    "model": "usersApp.product",
+    "pk": 7,
+    "fields": {
+        "name": "Men Crew-Neck Printed T-Shirt",
+        "category": 1,
+        "price": "599.00",
+        "discount_price": "450.00",
+        "description": "Soft cotton jersey T-shirt with high-quality graphic print. Easy to style for everyday casual wear.",
+        "image": "products/Men_Crew-Neck_Printed_T-Shirt.jpg",
+        "stock": 10,
+        "created_at": "2026-02-06T05:19:49.826Z",
+        "sizes": [],
+        "colors": []
+    }
+},
+{
+    "model": "usersApp.product",
+    "pk": 8,
+    "fields": {
+        "name": "Men Lightweight Hooded Jacket",
+        "category": 1,
+        "price": "2499.00",
+        "discount_price": "1999.00",
+        "description": "Weather-resistant lightweight jacket with adjustable hood. Ideal for travel, evening outings, and mild winters.",
+        "image": "products/Men_Lightweight_Hooded_Jacket.jpg",
+        "stock": 10,
+        "created_at": "2026-02-06T05:20:55.805Z",
+        "sizes": [],
+        "colors": []
+    }
+},
+{
+    "model": "usersApp.product",
+    "pk": 9,
+    "fields": {
+        "name": "Women Floral Summer Dress",
+        "category": 3,
+        "price": "1899.00",
+        "discount_price": "1699.00",
+        "description": "Flowy sleeveless dress crafted from breathable fabric. Designed for comfort and effortless elegance during warm days.",
+        "image": "products/Women_Floral_Summer_Dress.jpg",
+        "stock": 10,
+        "created_at": "2026-02-06T05:22:06.114Z",
+        "sizes": [],
+        "colors": []
+    }
+},
+{
+    "model": "usersApp.product",
+    "pk": 10,
+    "fields": {
+        "name": "Women Embroidered Anarkali Kurta",
+        "category": 3,
+        "price": "2599.00",
+        "discount_price": "1999.00",
+        "description": "Elegant Anarkali kurta featuring intricate embroidery and a graceful flare. Perfect for festive and traditional occasions.",
+        "image": "products/Women_Embroidered_Anarkali_Kurta.jpg",
+        "stock": 10,
+        "created_at": "2026-02-06T05:23:19.929Z",
+        "sizes": [],
+        "colors": []
+    }
+},
+{
+    "model": "usersApp.product",
+    "pk": 11,
+    "fields": {
+        "name": "Women High-Rise Straight Fit Jeans",
+        "category": 5,
+        "price": "1999.00",
+        "discount_price": "1699.00",
+        "description": "High-rise denim jeans offering a flattering fit and all-day comfort. A versatile wardrobe essential.",
+        "image": "products/Women_High-Rise_Straight_Fit_Jeans.jpg",
+        "stock": 10,
+        "created_at": "2026-02-06T05:25:30.849Z",
+        "sizes": [],
+        "colors": []
+    }
+},
+{
+    "model": "usersApp.product",
+    "pk": 12,
+    "fields": {
+        "name": "Women Oversized Graphic T-Shirt",
+        "category": 3,
+        "price": "799.00",
+        "discount_price": "599.00",
+        "description": "Relaxed-fit oversized T-shirt made from soft cotton fabric. Designed for comfort-forward, casual styling.",
+        "image": "products/Women_Oversized_Graphic_T-Shirt.jpg",
+        "stock": 10,
+        "created_at": "2026-02-06T05:26:54.175Z",
+        "sizes": [],
+        "colors": []
+    }
+},
+{
+    "model": "usersApp.product",
+    "pk": 13,
+    "fields": {
+        "name": "Kids Printed Cotton T-Shirt",
+        "category": 6,
+        "price": "399.00",
+        "discount_price": "299.00",
+        "description": "Soft and breathable cotton T-shirt with playful prints. Gentle on skin and ideal for daily wear.",
+        "image": "products/Kids_Printed_Cotton_T-Shirt.jpg",
+        "stock": 10,
+        "created_at": "2026-02-06T05:31:01.637Z",
+        "sizes": [],
+        "colors": []
+    }
+},
+{
+    "model": "usersApp.product",
+    "pk": 14,
+    "fields": {
+        "name": "Kids Denim Shorts",
+        "category": 6,
+        "price": "899.00",
+        "discount_price": "699.00",
+        "description": "Comfort-fit denim shorts with elastic waistband for easy movement and all-day play.",
+        "image": "products/Kids_Denim_Shorts.jpg",
+        "stock": 10,
+        "created_at": "2026-02-06T05:33:27.815Z",
+        "sizes": [],
+        "colors": []
+    }
+},
+{
+    "model": "usersApp.product",
+    "pk": 15,
+    "fields": {
+        "name": "Leather Finish Men’s Wallet",
+        "category": 7,
+        "price": "899.00",
+        "discount_price": "699.00",
+        "description": "Compact bi-fold wallet with multiple card slots and a premium leather finish.",
+        "image": "products/Leather_Finish_Mens_Wallet.jpg",
+        "stock": 10,
+        "created_at": "2026-02-06T05:44:07.484Z",
+        "sizes": [],
+        "colors": []
+    }
+},
+{
+    "model": "usersApp.cart",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "revanth"
+        ],
+        "session_id": null,
+        "created_at": "2026-02-04T03:58:09.868Z"
+    }
+},
+{
+    "model": "usersApp.cart",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "Dheeraj"
+        ],
+        "session_id": null,
+        "created_at": "2026-02-04T08:21:51.694Z"
+    }
+},
+{
+    "model": "usersApp.cart",
+    "pk": 3,
+    "fields": {
+        "user": [
+            "revanth19"
+        ],
+        "session_id": null,
+        "created_at": "2026-02-05T09:55:03.224Z"
+    }
+},
+{
+    "model": "usersApp.cartitem",
+    "pk": 1,
+    "fields": {
+        "cart": 3,
+        "product": 1,
+        "size": null,
+        "color": null,
+        "quantity": 1
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2026-02-05T10:03:29.669Z",
+        "user": [
+            "revanth19"
+        ],
+        "content_type": [
+            "usersApp",
+            "category"
+        ],
+        "object_id": "1",
+        "object_repr": "Men - Top Wear",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2026-02-05T10:03:35.518Z",
+        "user": [
+            "revanth19"
+        ],
+        "content_type": [
+            "usersApp",
+            "product"
+        ],
+        "object_id": "1",
+        "object_repr": "Urban Denim Jacket",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2026-02-06T03:53:29.621Z",
+        "user": [
+            "revanth19"
+        ],
+        "content_type": [
+            "usersApp",
+            "category"
+        ],
+        "object_id": "2",
+        "object_repr": "Women - Saree",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2026-02-06T03:57:42.409Z",
+        "user": [
+            "revanth19"
+        ],
+        "content_type": [
+            "usersApp",
+            "category"
+        ],
+        "object_id": "3",
+        "object_repr": "Women - Dress",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2026-02-06T04:03:42.897Z",
+        "user": [
+            "revanth19"
+        ],
+        "content_type": [
+            "usersApp",
+            "product"
+        ],
+        "object_id": "1",
+        "object_repr": "Urban Denim Jacket",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2026-02-06T05:17:43.441Z",
+        "user": [
+            "revanth19"
+        ],
+        "content_type": [
+            "usersApp",
+            "category"
+        ],
+        "object_id": "4",
+        "object_repr": "Men - Bottomwear",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2026-02-06T05:24:59.814Z",
+        "user": [
+            "revanth19"
+        ],
+        "content_type": [
+            "usersApp",
+            "category"
+        ],
+        "object_id": "5",
+        "object_repr": "Women - Jeans",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2026-02-06T05:30:11.740Z",
+        "user": [
+            "revanth19"
+        ],
+        "content_type": [
+            "usersApp",
+            "category"
+        ],
+        "object_id": "6",
+        "object_repr": "Kids - Kids Clothing",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2026-02-06T05:43:22.820Z",
+        "user": [
+            "revanth19"
+        ],
+        "content_type": [
+            "usersApp",
+            "category"
+        ],
+        "object_id": "7",
+        "object_repr": "Accessories - Accessories",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]

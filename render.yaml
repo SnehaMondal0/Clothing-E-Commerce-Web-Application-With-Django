@@ -1,0 +1,24 @@
+databases:
+  - name: shop_project_db
+    databaseName: shop_project
+    user: shop_user
+
+services:
+  - type: web
+    name: shop_project_web
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn shop_project.wsgi:application"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: shop_project_db
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: WEB_CONCURRENCY
+        value: 4
+      - key: STRIPE_PUBLIC_KEY
+        value: "pk_test_placeholder"  # Replace in Render Dashboard
+      - key: STRIPE_SECRET_KEY
+        value: "sk_test_placeholder"  # Replace in Render Dashboard
