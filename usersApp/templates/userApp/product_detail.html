@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+{% block title %}{{ product.name }} | StyleHaven{% endblock %}
+{% block content %}
+<div class="max-w-7xl mx-auto px-6 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-14">
+
+        <!-- Product Image (safe) -->
+        <div class="space-y-4">
+            <div class="aspect-[3/4] overflow-hidden rounded-2xl bg-indigo-50 shadow-lg">
+                {% if product.image %}
+                    <img src="{{ product.image.url }}" class="w-full h-full object-cover" alt="{{ product.name }}">
+                {% else %}
+                    <div class="w-full h-full flex items-center justify-center text-indigo-200">
+                        <i class="fas fa-image text-6xl"></i>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- Product Info -->
+        <div class="py-4 space-y-6">
+            <div>
+                <p class="text-xs font-semibold uppercase tracking-widest text-indigo-400 mb-1">{{ product.category.name }}</p>
+                <h1 class="text-4xl font-bold text-indigo-900 leading-tight" style="font-family:'Poppins',sans-serif;">
+                    {{ product.name }}
+                </h1>
+            </div>
+
+            <!-- Pricing -->
+            <div class="flex items-baseline gap-3">
+                {% if product.discount_price %}
+                    <span class="text-3xl font-bold text-indigo-700">₹{{ product.discount_price }}</span>
+                    <span class="text-lg text-slate-400 line-through">₹{{ product.price }}</span>
+                    <span class="text-xs font-bold text-white px-2 py-0.5 rounded-full"
+                          style="background:linear-gradient(135deg,#4F46E5,#7C3AED);">SALE</span>
+                {% else %}
+                    <span class="text-3xl font-bold text-indigo-700">₹{{ product.price }}</span>
+                {% endif %}
+            </div>
+
+            <p class="text-slate-500 leading-relaxed">{{ product.description }}</p>
+
+            <form action="{% url 'add_to_cart' product.id %}" method="POST" class="space-y-6">
+                {% csrf_token %}
+
+                <!-- Size Selection -->
+                {% if product.sizes.all %}
+                <div>
+                    <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400 mb-3">Select Size</h3>
+                    <div class="flex flex-wrap gap-3">
+                        {% for size in product.sizes.all %}
+                        <label class="cursor-pointer">
+                            <input type="radio" name="size" value="{{ size.id }}" class="peer sr-only">
+                            <div class="w-12 h-12 flex items-center justify-center border-2 border-slate-200 rounded-xl font-semibold text-sm text-slate-600
+                                        peer-checked:border-indigo-500 peer-checked:bg-indigo-500 peer-checked:text-white
+                                        hover:border-indigo-400 transition">
+                                {{ size.name }}
+                            </div>
+                        </label>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+
+                <!-- Color Selection -->
+                {% if product.colors.all %}
+                <div>
+                    <h3 class="text-xs font-bold uppercase tracking-widest text-slate-400 mb-3">Select Color</h3>
+                    <div class="flex flex-wrap gap-3">
+                        {% for color in product.colors.all %}
+                        <label class="cursor-pointer">
+                            <input type="radio" name="color" value="{{ color.id }}" class="peer sr-only">
+                            <div class="w-9 h-9 rounded-full border-4 border-transparent peer-checked:border-indigo-500 peer-checked:scale-110 transition shadow-md"
+                                 style="background-color: {{ color.code }};"></div>
+                        </label>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+
+                <div class="pt-2">
+                    <button type="submit" class="btn-primary w-full" style="padding:1rem; font-size:0.8rem;">
+                        <i class="fas fa-shopping-bag mr-2"></i>Add to Cart
+                    </button>
+                </div>
+            </form>
+
+            <!-- Trust badges -->
+            <div class="flex flex-wrap gap-4 text-xs text-slate-400 pt-2">
+                <span><i class="fas fa-truck mr-1 text-indigo-300"></i>Free delivery on ₹799+</span>
+                <span><i class="fas fa-undo mr-1 text-indigo-300"></i>14-day returns</span>
+                <span><i class="fas fa-shield-alt mr-1 text-indigo-300"></i>Secure checkout</span>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
