@@ -86,9 +86,6 @@ Follow these steps to run the project locally:
 7.  **Access the App:**
     Open your browser and go to `http://127.0.0.1:8000/`
 
-## 📸 Screenshots
-*(You can upload screenshots of your Homepage and Dashboard here later)*
-
 ## 👤 Author
 **Sneha Mondal**
 - GitHub: [SnehaMondal](https://github.com/SnehaMondal0)
