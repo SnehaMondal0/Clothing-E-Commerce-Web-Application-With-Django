@@ -90,5 +90,5 @@ Follow these steps to run the project locally:
 *(You can upload screenshots of your Homepage and Dashboard here later)*
 
 ## 👤 Author
-**Revanth Kunala**
-- GitHub: [RevanthKunala](https://github.com/RevanthKunala)
+**Sneha Mondal**
+- GitHub: [SnehaMondal](https://github.com/SnehaMondal0)
